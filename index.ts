@@ -1,13 +1,12 @@
 // 入力値
-const n:number = 3;
+const n: number = 3;
 
-const factorial = (n: number): number => {
+const factorial = (n: number) => {
 	let result: number = 1;
 	for (let i = 0; i < n; i++) {
 		result *= i + 1;
 	}
-	return result;
+	console.log(result);
 };
 
-const answer: number = factorial(3);
-console.log(answer);
+factorial(3);
